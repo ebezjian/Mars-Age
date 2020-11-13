@@ -12,5 +12,7 @@ $(document).ready(function() {
     const inputDay = $("#day").val();
     const inputYear = $("#year").val();
     const inputTotal = new Userinput (inputMonth, inputDay, inputYear)
+
+    const birthAge = inputTotal.birthdayCalc()
   });
 });
