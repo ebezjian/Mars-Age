@@ -1,14 +1,12 @@
 
-import PlanetCalculator from './../src/second.js';
+import {PlanetCalculator} from './../src/second.js';
 
-describe ('PlanetCalculator'), () => {
-  let calc;
+describe('PlanetCalculator', () => {
 
-  beforeEach(() => {
-    calc= new PlanetCalculator(33);
-  });
 
   test('should recognize age of user', () => {
-    expect(calc.age).toEqual(33);
+    let userInput = new PlanetCalculator ('33');
+    
+    expect (userInput).toEqual ({"age": "33"});
   });
-}
+})

@@ -18,4 +18,7 @@ export class PlanetCalculator {
   venusAge() {
     return this.age / .62;
   }
+  earthAge() {
+    return this.age
+  }
 }
