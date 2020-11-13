@@ -19,6 +19,7 @@
 
 | Behavior                                                        | Input     | Output    |
 | --------------------------------------------------------------- | --------- | --------- |
+|Should calculate someones age |user inputs: 12, 13, 1986 | 33 |
 |Should return age in Mercury Years | | |
 |Should return age in Venus Years | | |
 |Should return age in Mars Years | | |
