@@ -8,11 +8,7 @@ import './css/styles.css';
 $(document).ready(function() {
   $('birthday').submit(function(event) {
     event.preventDefault();
-    const inputMonth = $("#month").val();
-    const inputDay = $("#day").val();
-    const inputYear = $("#year").val();
-    const inputTotal = new Userinput (inputMonth, inputDay, inputYear)
+    const inputAge = $("#myAge").val();
 
-    const birthAge = inputTotal.birthdayCalc()
   });
 });
