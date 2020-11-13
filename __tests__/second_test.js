@@ -10,7 +10,11 @@ describe('PlanetCalculator', () => {
     expect (userInput).toEqual ({"age": "33"});
   });
   test ('shoulder calculate user age for mercury', () => {
-    let userInput = new PlanetCalculator ('33');
-    expect(userInput.mercuryAge()).toEqual ({"age": "33"});
+    let userInput = new PlanetCalculator('33');
+    expect(userInput.mercuryAge()).toEqual('138');
+  })
+  test ('shoulder calculate user age for mars', () => {
+    let userInput = new PlanetCalculator('33');
+    expect(userInput.marsAge()).toEqual('138');
   })
 })
