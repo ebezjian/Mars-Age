@@ -1,7 +1,7 @@
 {
   "name": "bundling",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [Click to view Github repository](https://github.com/ebezjian/Mars-Age.git) Or simply paste the following url into your prefered browser https://github.com/ebezjian/Mars-Age.git\r - To Clone repository simply click the green Code button and copy the url\r - Using a prefered terminal type command 'git clone paste-url-here\r - Alternetivly click the Set up in Desktop button\r - Open the index file to view site\r - [Click to open active site in Github]) (https://ebezjian.github.io/Mars-Age/) Or simply paste the following url into your prefered browser https://ebezjian.github.io/Mars-Age/",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -36,5 +36,13 @@
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebezjian/Mars-Age.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebezjian/Mars-Age/issues"
+  },
+  "homepage": "https://github.com/ebezjian/Mars-Age#readme"
 }
