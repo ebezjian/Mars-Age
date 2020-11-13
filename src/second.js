@@ -18,7 +18,7 @@ export class PlanetCalculator {
   venusAge() {
     return (this.age / .62).toFixed();
   }
-  earthAge() {
-    return (this.age).toFixed();
+  lifeLeft() {
+    return Math.abs(this.age - 60).toFixed();
   }
 }
