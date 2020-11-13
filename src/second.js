@@ -5,7 +5,7 @@ export class PlanetCalculator {
     this.age = age;
   }
   mercuryAge() {
-    return this.age / .24;
+    return (this.age / .24).toFixed();
   }
   marsAge() {
     return this.age / 1.88;
