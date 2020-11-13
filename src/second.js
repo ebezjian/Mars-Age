@@ -13,6 +13,7 @@ export class PlanetCalculator {
 
   jupiterAge() {
     return (this.age / 11.86).toFixed();
+    
   }
 
   venusAge() {
@@ -20,5 +21,6 @@ export class PlanetCalculator {
   }
   lifeLeft() {
     return Math.abs(this.age - 60).toFixed();
+    
   }
 }
