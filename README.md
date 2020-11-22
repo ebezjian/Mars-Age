@@ -1,6 +1,6 @@
 # **Week 5 Independent Project**
 
-#### Mars Age a Galactic calculator, 11/06/2020
+#### Mars Age a Galactic calculator, updated 11/22/20
 
 #### **By Ellie Lambert**
 
@@ -45,6 +45,10 @@
 - Css
 - jQuery
 - Javascript
+- webpack
+- node package manager
+- ESLint
+- Jest
 
 ### License
 
