@@ -27,7 +27,7 @@ describe('PlanetCalculator', () => {
   test ('should calculate user age for jupiter', () => {
     let userInput = new PlanetCalculator('33');
     expect(userInput.jupiterAge()).toEqual('3');
-    expect(userInput.venusAge() - userInput.lifeLeft()).toEqual(26)
+    expect(userInput.jupiterAge() - userInput.lifeLeft()).toEqual(-24)
   })
   test ('should subtract 60 from age for life expectancy', () =>{
     let userInput = new PlanetCalculator ('33');
