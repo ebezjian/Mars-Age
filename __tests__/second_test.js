@@ -1,5 +1,5 @@
 
-import {PlanetCalculator} from './../src/second.js';
+import PlanetCalculator from './../src/second.js';
 
 describe('PlanetCalculator', () => {
 

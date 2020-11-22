@@ -1,7 +1,8 @@
 // business logic
 
 export default class PlanetCalculator {
-  constructor(age, lifeLeft) {
+  
+  constructor(age) {
     this.age = age;
     
   }
