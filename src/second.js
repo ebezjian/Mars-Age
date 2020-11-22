@@ -1,7 +1,7 @@
 // business logic
 
 export default class PlanetCalculator {
-  
+
   constructor(age) {
     this.age = age;
     
@@ -23,6 +23,7 @@ export default class PlanetCalculator {
     return (this.age / .62).toFixed();
   }
   lifeLeft() {
+    
     return Math.abs(this.age - 60).toFixed();
     
   }
