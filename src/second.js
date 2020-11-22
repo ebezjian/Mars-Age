@@ -1,10 +1,12 @@
 // business logic
 
 export default class PlanetCalculator {
-  constructor(age) {
+  constructor(age, lifeLeft) {
     this.age = age;
+    
   }
   mercuryAge() {
+    
     return (this.age / .24).toFixed();
   }
   marsAge() {

@@ -7,7 +7,7 @@ describe('PlanetCalculator', () => {
   test('should recognize age of user', () => {
     let userInput = new PlanetCalculator ('33');
     
-    expect (userInput).toEqual ({"age": "33"});
+    expect (userInput).toEqual ({"age": "22"});
   });
   test ('should calculate user age for mercury', () => {
     let userInput = new PlanetCalculator('33');
