@@ -41,4 +41,16 @@ export default class PlanetCalculator {
   lifeOnMercury(){
     return Math.abs(this.age - 60/0.24).toFixed();
   }
+
+  lifeOnMars(){
+    return Math.abs(this.age - 60/1.88).toFixed();
+  }
+
+  lifeOnJupiter(){
+    return Math.abs(this.age - 60/11.86).toFixed();
+  }
+
+  lifeOnVenus(){
+    return Math.abs(this.age - 60/.62).toFixed();
+  }
 }
