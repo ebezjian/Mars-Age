@@ -4,6 +4,16 @@ export default class PlanetCalculator {
 
   constructor(age) {
     this.age = age;
+
+    this.mercuryExp;
+    this.venusExp;
+    this.marsExp;
+    this.jupiterExp;
+    
+    this.yearsLeft;
+    this.mercuryYearsLeft;
+    this.venusYearsLeft;
+    this.marsYearsLeft;
     
   }
   mercuryAge() {
@@ -26,5 +36,9 @@ export default class PlanetCalculator {
     
     return Math.abs(this.age - 60).toFixed();
     
+  }
+
+  lifeOnMercury(){
+    return Math.abs(this.age - 60/0.24).toFixed();
   }
 }
