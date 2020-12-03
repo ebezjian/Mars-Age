@@ -53,4 +53,6 @@ export default class PlanetCalculator {
   lifeOnVenus(){
     return Math.abs(this.age - 60/.62).toFixed();
   }
+
+  
 }
