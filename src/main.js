@@ -9,6 +9,6 @@ $(document).ready(function() {
   $('birthday').submit(function(event) {
     event.preventDefault();
     const inputAge = $("#myAge").val();
-
+    
   });
 });
